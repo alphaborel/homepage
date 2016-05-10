@@ -1,7 +1,9 @@
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+}
 .mainNav {
     width: 100%;
     text-align: center;
-    position: fixed;
     background-color: darkgreen;
 }
 .mainNav li {
@@ -11,6 +13,5 @@
 }
 #splashBox {
     width: 100%;
-    min-height: 70%;
     background-color: aqua;
 }
