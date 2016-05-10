@@ -1,0 +1,35 @@
+html {
+    background-color: black;
+}
+
+.wrapper {
+    width: 100%;
+    height: 800px;
+    background-color: black;
+    background-image: url('../img/fortune1.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 700px;
+    font-family: 'Kaushan Script', cursive;
+    color: #fff;
+}
+
+.dialog {
+    padding-top: 20%;
+    padding-left: 10%;
+}
+
+p {
+    font-size: 2em;
+    padding-bottom: 25px;
+}
+
+input {
+    margin-left: 1%;
+    background: transparent;
+    padding-left: 5%;
+    height: 20px;
+    border: none;
+    color: #fff;
+    border-bottom: 1px dashed #83A4C5;
+}
