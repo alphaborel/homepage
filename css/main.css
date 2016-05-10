@@ -1,6 +1,16 @@
+.mainNav {
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    background-color: darkgreen;
+}
+.mainNav li {
+    display: inline-block;
+    padding: 0.5% 4% 0.5% 4%;
+    font-size: 1.2em;
+}
 #splashBox {
     width: 100%;
-    min-height: 40%;
+    min-height: 70%;
     background-color: aqua;
 }
-
