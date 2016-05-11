@@ -1,17 +1,31 @@
 body {
     font-family: 'Merriweather Sans', sans-serif;
 }
+
 .mainNav {
     width: 100%;
     text-align: center;
-    background-color: darkgreen;
 }
+
 .mainNav li {
     display: inline-block;
     padding: 0.5% 4% 0.5% 4%;
     font-size: 1.2em;
 }
+
 #splashBox {
-    width: 100%;
-    background-color: aqua;
+    background-image: url('../img/food_xl_cr.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    height: 800px;
+}
+
+h1 {
+    font-size: 3em;
+    width: 300px;
+    color: aliceblue;
+    padding: 1%;
+    background-color: black;
+    margin-left: 10%;
 }
