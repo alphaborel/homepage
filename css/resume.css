@@ -2,6 +2,17 @@
      position: relative;
      font-family: 'Merriweather Sans', sans-serif;
  }
+ /*Main Nav Styles*/
+
+ .mainNav {
+     width: 100%;
+     text-align: center;
+ }
+ .mainNav li {
+     display: inline-block;
+     padding: 0.5% 4% 0.5% 4%;
+     font-size: 1.2em;
+ }
  .pageWrapper {
      width: 80%;
      margin: 0 auto;
