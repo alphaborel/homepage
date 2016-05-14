@@ -1,10 +1,18 @@
+/* This section font and navigation common to all pages */
+
 body {
     font-family: 'Merriweather Sans', sans-serif;
     color: #222621;
 }
 
-a {
+a:link {
+    background-color: transparent;
     text-decoration: none;
+    color: #222621;
+}
+
+a:visited {
+    color: #222621;
 }
 
 .mainNav {
@@ -21,14 +29,18 @@ a {
     font-size: 1.2em;
 }
 
-.mainNav a {
-    color: #222621;
+.mainNav li:hover {
+    color: #f2f2f2;
+    background-color: #222621;
 }
 
-.mainNav li:hover {
-    border-left: 2px solid #222621;
-    border-right: 2px solid #222621;
+#currentPage {
+    color: #f2f2f2;
+    background-color: #222621;
 }
+
+
+/* End common page and Navigation setup */
 
 #splashBox {
     padding-top: 5%;
@@ -39,7 +51,7 @@ a {
     height: 600px;
 }
 
-h1 {
+.splashPhrase {
     font-size: 3em;
     letter-spacing: 2px;
     max-width: 300px;

@@ -1,71 +1,41 @@
- body {
-     position: relative;
-     font-family: 'Merriweather Sans', sans-serif;
- }
+@import "main.css";
+.pageWrapper {
+    width: 70%;
+    padding-top: 50px;
+    margin: 0 auto;
+}
 
- a {
-     text-decoration: none;
- }
- /*Main Nav Styles*/
+#resumeName {
+    text-align: center;
+    font-size: 2em;
+    padding-bottom: 10px;
+}
 
- .mainNav {
-     position: fixed;
-     width: 100%;
-     text-align: center;
-     background-color: #f2f2f2;
-     border-bottom: 1px solid #222621;
- }
+#info {
+    text-align: center;
+    font-size: 1em;
+}
 
- .mainNav li {
-     display: inline-block;
-     padding: 0.5% 4% 0.5% 4%;
-     font-size: 1.2em;
- }
+.colLeft {
+    float: left;
+    width: 25%;
+    height: 700px;
+    padding: 10px;
+}
 
- .mainNav a {
-     color: #222621;
- }
+.colRight {
+    float: left;
+    width: 69%;
+    height: 700px;
+    border: 2px solid black;
+    padding: 10px;
+}
 
- .mainNav li:hover {
-     border-left: 2px solid #222621;
-     border-right: 2px solid #222621;
- }
-
- .pageWrapper {
-     width: 80%;
-     margin: 0 auto;
-     padding: 3%;
- }
-
- h1 {
-     text-align: center;
-     font-size: 2em;
-     padding-bottom: 10px;
- }
-
- #info {
-     text-align: center;
-     font-size: 1em;
- }
-
- .colLeft {
-     float: left;
-     width: 25%;
-     height: 700px;
-     padding: 10px;
- }
-
- .colRight {
-     float: left;
-     width: 69%;
-     height: 700px;
-     border-left: 2px solid black;
-     padding: 10px;
- }
-
- .lilHeaders {
-     font-size: 1.1em;
-     width: 98%;
-     background-color: cadetblue;
-     padding: 5px;
- }
+div.lilHeaders {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: cadetblue;
+    font-size: 1.1em;
+    width: 98%;
+    padding: 3px;
+}
