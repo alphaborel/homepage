@@ -1,10 +1,4 @@
 @import "main.css";
-.pageWrapper {
-    width: 70%;
-    padding-top: 50px;
-    margin: 0 auto;
-}
-
 #resumeName {
     text-align: center;
     font-size: 2em;
@@ -12,6 +6,7 @@
 }
 
 #info {
+    margin-bottom: 15px;
     text-align: center;
     font-size: 1em;
 }
@@ -20,6 +15,9 @@
     float: left;
     width: 25%;
     height: 700px;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
     padding: 10px;
 }
 
@@ -38,4 +36,20 @@ div.lilHeaders {
     font-size: 1.1em;
     width: 98%;
     padding: 3px;
+    margin-top: 10px;
+}
+
+li {
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+p {
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.strong {
+    padding-top: 20px;
+    font-size: 1.1em;
 }

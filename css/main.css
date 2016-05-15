@@ -39,6 +39,13 @@ a:visited {
     background-color: #222621;
 }
 
+.pageWrapper {
+    max-width: 950px;
+    min-width: 800px;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+
 
 /* End common page and Navigation setup */
 
@@ -63,7 +70,23 @@ a:visited {
 
 .pageMiddle {
     width: 100%;
-    height: 400px;
+    height: 250px;
+}
+
+.pageMiddle p {
+    padding-top: 1.2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    font-size: 1.4em
+}
+
+.pageMiddle H1 {
+    padding-top: 1.2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    font-size: 1.4em
 }
 
 .footer {
