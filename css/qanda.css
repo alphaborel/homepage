@@ -1,0 +1,29 @@
+@import "reset.css";
+@import "main.css";
+.pageWrapper {
+    padding-top: 3%;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    font-size: 2em;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.questionBox {
+    padding: 1%;
+    padding-bottom: 2%;
+}
+
+.question {
+    font-size: 1.2em;
+    line-height: 1.2em;
+    color: #736049
+}
+
+.answer {
+    line-height: 1.5em;
+}

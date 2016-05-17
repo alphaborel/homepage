@@ -75,10 +75,10 @@ a:visited {
 
 .pageMiddle p {
     padding-top: 1.2%;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
     text-align: center;
-    font-size: 1.4em
+    font-size: 1.2em;
 }
 
 .pageMiddle H1 {
@@ -86,7 +86,12 @@ a:visited {
     padding-left: 10%;
     padding-right: 10%;
     text-align: center;
-    font-size: 1.4em
+    font-size: 1.4em;
+}
+
+.pageMiddle .innerLink {
+    color: #6986B5;
+    text-decoration: underline;
 }
 
 .footer {
