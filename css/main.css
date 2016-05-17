@@ -4,17 +4,14 @@ body {
     font-family: 'Merriweather Sans', sans-serif;
     color: #222621;
 }
-
 a:link {
     background-color: transparent;
     text-decoration: none;
     color: #222621;
 }
-
 a:visited {
     color: #222621;
 }
-
 .mainNav {
     position: fixed;
     width: 100%;
@@ -22,30 +19,32 @@ a:visited {
     background-color: #f2f2f2;
     border-bottom: 1px solid #222621;
 }
-
 .mainNav li {
     display: inline-block;
     padding: 0.5% 4% 0.5% 4%;
     font-size: 1.2em;
 }
-
 .mainNav li:hover {
     color: #f2f2f2;
     background-color: #222621;
 }
-
 #currentPage {
     color: #f2f2f2;
     background-color: #222621;
 }
-
+.mainNav .social img {
+    position: fixed;
+    margin-left: 5%;
+    margin-top: 3px;
+    max-width: 2%;
+    min-width: 20px;
+}
 .pageWrapper {
     max-width: 950px;
     min-width: 800px;
     padding-top: 50px;
     margin: 0 auto;
 }
-
 
 /* End common page and Navigation setup */
 
@@ -57,7 +56,6 @@ a:visited {
     background-color: black;
     height: 600px;
 }
-
 .splashPhrase {
     font-size: 3em;
     letter-spacing: 2px;
@@ -67,12 +65,11 @@ a:visited {
     background-color: #222621;
     margin-left: 10%;
 }
-
 .pageMiddle {
     width: 100%;
+    line-height: 1.5em;
     height: 250px;
 }
-
 .pageMiddle p {
     padding-top: 1.2%;
     padding-left: 20%;
@@ -80,7 +77,6 @@ a:visited {
     text-align: center;
     font-size: 1.2em;
 }
-
 .pageMiddle H1 {
     padding-top: 1.2%;
     padding-left: 10%;
@@ -88,24 +84,20 @@ a:visited {
     text-align: center;
     font-size: 1.4em;
 }
-
 .pageMiddle .innerLink {
     color: #6986B5;
     text-decoration: underline;
 }
-
 .footer {
     width: 100%;
     height: 100px;
     color: #f2f2f2;
     background-color: #222621;
 }
-
 .footer li {
     text-align: center;
     padding-top: 5px;
 }
-
 .footer a {
     text-decoration: underline;
     color: aliceblue;
