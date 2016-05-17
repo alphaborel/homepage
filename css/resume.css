@@ -5,31 +5,29 @@
     font-size: 2em;
     padding-bottom: 10px;
 }
-
 #info {
     margin-bottom: 15px;
     text-align: center;
     font-size: 1em;
 }
-
 .colLeft {
     float: left;
     width: 25%;
     height: 700px;
+    line-height: 1.1em;
     border-left: 2px solid black;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     padding: 10px;
 }
-
 .colRight {
     float: left;
     width: 69%;
     height: 700px;
+    line-height: 1.1em;
     border: 2px solid black;
     padding: 10px;
 }
-
 div.lilHeaders {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
@@ -39,17 +37,14 @@ div.lilHeaders {
     padding: 3px;
     margin-top: 10px;
 }
-
 li {
     padding-left: 15px;
     padding-top: 5px;
 }
-
 p {
     padding-left: 15px;
     padding-top: 5px;
 }
-
 .strong {
     padding-top: 20px;
     font-size: 1.1em;
