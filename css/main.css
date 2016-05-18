@@ -68,7 +68,8 @@ a:visited {
 .pageMiddle {
     width: 100%;
     line-height: 1.5em;
-    height: 250px;
+    min-height: 260px;
+    padding-bottom: 1%;
 }
 .pageMiddle p {
     padding-top: 1.2%;
