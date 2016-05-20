@@ -1,2 +1,9 @@
 @import "reset.css";
 @import "main.css";
+.tab div {
+    display: none;
+}
+
+.tab div:target {
+    display: block;
+}
