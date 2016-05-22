@@ -5,12 +5,19 @@
     padding-left: 1%;
     padding-right: 1%;
     background-color: #f2f2f2;
+    min-height: 950px;
+    min-width: 700px;
 }
 
 h1 {
     font-size: 2em;
     padding-top: 2%;
     padding-bottom: 2%;
+}
+
+.answer a {
+    color: #3074BF;
+    text-decoration: underline;
 }
 
 .questionBox {

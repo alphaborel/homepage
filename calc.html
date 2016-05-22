@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html" />
+    <title>JavaScript Calculator</title>
+    <link type="text/css" rel="stylesheet" href="css/calc.css">
+
+</head>
+
+<body>
+    <nav>
+        <ul class="mainNav">
+            <a class="navLink" href="qanda.html">
+                <li>Go Back</li>
+            </a>
+        </ul>
+    </nav>
+    <div class="pageWrapper">
+        <h1>50&#162; calculator</h1>
+        <div id="calcWrapper">
+
+            <FORM NAME="Calc">
+                <INPUT TYPE="text" id="fnumbers" NAME="outputBox" Value="" Size="18">
+            </form>
+
+            <table id="calcButtons">
+                <tr>
+                    <td id="one" onclick="getNumbers(1)">1</td>
+                    <td id="two" onclick="getNumbers(2)">2</td>
+                    <td id="three" onclick="getNumbers(3)">3</td>
+                    <td id="divide" onclick="getNumbers(&quot;/&quot;)">&divide</td>
+                </tr>
+                <tr>
+                    <td id="four" onclick="getNumbers(4)">4</td>
+                    <td id="five" onclick="getNumbers(5)">5</td>
+                    <td id="six" onclick="getNumbers(6)">6</td>
+                    <td id="multiply" onclick="getNumbers(&quot;*&quot;)">x</td>
+                </tr>
+                <tr>
+                    <td id="seven" onclick="getNumbers(7)">7</td>
+                    <td id="eight" onclick="getNumbers(8)">8</td>
+                    <td id="nine" onclick="getNumbers(9)">9</td>
+                    <td id="subtract" onclick="getNumbers(&quot;-&quot;)">-</td>
+                </tr>
+                <tr>
+                    <td id="zero" onclick="getNumbers(0)">0</td>
+                    <td id="negative">-/+</td>
+                    <td id="decimal" onclick="getNumbers(&quot;.&quot;)">.</td>
+                    <td id="add" onclick="getNumbers(&quot;+&quot;)">+</td>
+                </tr>
+                <tr>
+                    <td colspan="2" id="clear" onclick="emptyIt()">Clear</td>
+                    <td colspan="2" id="equal" onclick="Calc.outputBox.value = eval(Calc.outputBox.value)">=</td>
+                </tr>
+
+            </table>
+
+            <!--    *****getNumbers() Function*****
+		When a user clicks on the numbers, that number is passed to the
+		getNumbers() function. This function then gets our text box
+		with an id of fnumbers - plugging it into the variable
+		theTextBox. We then take that text box variable, with whatever is currently
+		in it and append what is passed by the getNumbers() function. -->
+
+            <script language="javascript" type="text/javascript">
+                function getNumbers(input) {
+
+                    var theTextBox = document.getElementById("fnumbers");
+                    theTextBox.value = theTextBox.value + input;
+                }
+
+                function emptyIt() {
+
+                    document.getElementById("fnumbers").value = "";
+                }
+            </script>
+            <noscript>
+                <h3>This app requires JavaScript</h3>
+            </noscript>
+        </div>
+        <!-- end calculator wrapper -->
+    </div>
+    <!-- end body wrapper -->
+</body>
+
+</html>

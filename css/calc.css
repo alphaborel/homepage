@@ -1,0 +1,56 @@
+@import "reset.css";
+@import "main.css";
+.pageWrapper {
+    padding-top: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: #f2f2f2;
+    text-align: center;
+    height: 400px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 25px;
+}
+
+#calcWrapper {
+    width: 150px;
+    padding: 15px;
+    margin: 0 auto;
+    border: 1px solid #222621;
+    background-color: #222621;
+    color: white;
+}
+
+#paragraph {
+    border: none;
+}
+
+#fnumbers {
+    width: 145px;
+    margin-bottom: 15px;
+}
+
+div p {
+    height: 200px;
+    width: 130px;
+    padding-bottom: 5px;
+    margin-left: 8px;
+    color: black;
+    x-border: 1px solid white;
+    background-color: white;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    height: 10px;
+    width: 30px;
+    border: 1px solid white;
+}
+
+td:hover {
+    color: white;
+    background-color: #3074BF;
+}
