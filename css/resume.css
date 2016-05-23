@@ -23,7 +23,7 @@
 .colLeft {
     float: left;
     max-width: 20%;
-    height: 700px;
+    height: 725px;
     line-height: 1.1em;
     border-left: 2px solid #222621;
     border-top: 2px solid #222621;
@@ -35,7 +35,7 @@
 .colRight {
     float: left;
     max-width: 69%;
-    height: 700px;
+    height: 725px;
     line-height: 1.1em;
     border: 2px solid #222621;
     padding: 10px;
